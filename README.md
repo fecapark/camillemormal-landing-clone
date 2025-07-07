@@ -16,7 +16,8 @@ Cloning winning-awards [camillemormal.com](https://camillemormal.com/) landing p
 
 ## Details
 
-- full responsive design / animation
+- Development time: 1 Day
+- Full responsive design / animation
 - Ensure 60fps
 
   https://github.com/user-attachments/assets/9df852d9-1db5-4080-8e17-427c83fdd6a5
