@@ -1,9 +1,21 @@
 import "./style.css";
 import gsap from "gsap";
-import { match } from "ts-pattern";
 import { debounce, reverseNodeList } from "./utils";
 
 const getSlideAnimation = (type: "center" | "forward" | "backward") => {
+  const delay = (() => {
+    switch (type) {
+      case "center":
+        return 0;
+      case "forward":
+        return 0.4;
+      case "backward":
+        return 0.3;
+      default:
+        return undefined;
+    }
+  })();
+
   return {
     from: {
       y: type === "backward" ? "-120vh" : "120vh",
@@ -13,11 +25,7 @@ const getSlideAnimation = (type: "center" | "forward" | "backward") => {
       duration: 3,
       ease: "expo.inOut",
       stagger: 0.3,
-      delay: match(type)
-        .with("center", () => 0)
-        .with("forward", () => 0.4)
-        .with("backward", () => 0.3)
-        .exhaustive(),
+      delay,
     },
   };
 };

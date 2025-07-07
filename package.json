@@ -17,7 +17,6 @@
     "vite": "^7.0.0"
   },
   "dependencies": {
-    "gsap": "^3.13.0",
-    "ts-pattern": "^5.7.1"
+    "gsap": "^3.13.0"
   }
 }
