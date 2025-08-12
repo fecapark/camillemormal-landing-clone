@@ -2,7 +2,7 @@
 
 # Camillemormal Landing Clone
 
-Cloning winning-awards [camillemormal.com](https://camillemormal.com/) landing page.
+Cloning winning-awards [camillemormal.com](https://camillemormal.com/) landing page!
 
 <br />
 
